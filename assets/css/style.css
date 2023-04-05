@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* backgroun color of the webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* header style: background color, font, text color etc */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,20 @@ header {
     color: #ffffff;
 }
 
+
+/* the title of the webpage style: */
 .title {
     display: inline-block;
     font-size: 48px;
 }
 
+/* color change for "seo" in the title*/
 .title .seo {
     color: #d9dcd6;
 }
 
+
+/*navigation bar styling*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,6 +38,7 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 
 header nav ul  {
     list-style-type: none;
@@ -51,6 +59,7 @@ p {
     font-size: 16px;
 }
 
+/* the top image parameters: size, margin, positioning*/
 .hero {
     height: 800px;
     width: 100%;
@@ -60,6 +69,7 @@ p {
     background-position: center;
 }
 
+/*Articles images positioning*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -76,6 +86,7 @@ p {
     margin-left: 20px;
 }
 
+/*aside element parameters*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,6 +98,7 @@ p {
     background-color: #2589bd;
 }
 
+/* aside div elements text parameters*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -102,6 +114,8 @@ p {
     color: #ffffff;
 }
 
+
+/* aside div headers size and positioning*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -117,6 +131,7 @@ p {
     text-align: center;
 }
 
+/*aside dive pictograms size and positioning*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -135,6 +150,7 @@ p {
     max-width: 150px;
 }
 
+/*article blocks styling*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* articles images size*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -174,6 +191,7 @@ p {
     max-height: 200px;
 }
 
+/*articles headers styling*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -189,6 +207,7 @@ p {
     font-size: 36px;
 }
 
+/*footer styling*/
 footer {
     padding: 30px;
     clear: both;
